@@ -1,5 +1,5 @@
-import Sidebar from "./Components/Sidebar";
-import Workarea from "./Components/Workarea";
+import Sidebar from "./components/Sidebar";
+import Workarea from "./components/Workarea";
 import "./styles/app.css";
 
 export default function App() {
