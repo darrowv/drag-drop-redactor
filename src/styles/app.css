@@ -1,0 +1,58 @@
+h1 {
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  margin: auto;
+  width: 1000px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+aside {
+  width: 20%;
+  border: 2px solid grey;
+}
+
+.sidebar-text, .sidebar-image {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 5px;
+  cursor: grab;
+  width: 90%;
+}
+
+#workarea {
+  width: 79%;
+  border: 2px solid royalblue;
+  padding: 2rem;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.workarea-text, .workarea-img {
+  margin-bottom: 10px;
+}
+
+.workarea-text {
+  border: 1px solid grey;
+  outline: none;
+  font-size: 1.7rem;
+  max-width: 500px;
+  max-height: 150px;
+  min-height: 70px;
+  padding: 0.5rem;
+}
+
+.workarea-img {
+  border: 1px solid grey;
+  cursor: pointer;
+  max-width: 400px;
+  max-height: 200px;
+}
